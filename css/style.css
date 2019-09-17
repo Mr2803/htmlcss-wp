@@ -13,9 +13,17 @@ font-family: Verdana, sans-serif;
 }
 
 h3{
+  display: inline-block;
   color:#504741;
   font-weight: bold;
 }
+
+div.blocco1 i{
+  color:orange;
+  font-size: 21px;
+}
+
+
 /* |regole generali */
 
 /* sezione header */
@@ -177,13 +185,13 @@ footer div{
   width: 98%;
 }
 
-/* regole generali icone */
-i{
+/* regole generali icone footer */
+footer i{
   font-size: 30px;
   position: absolute;
   top:70%;
 }
-/* |regole generali icone */
+/* |regole generali icone footer */
 
 /* regole icone singole */
 i.facebook{
