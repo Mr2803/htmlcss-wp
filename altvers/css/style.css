@@ -35,15 +35,29 @@ img{
   position: relative;
 }
 
-header:hover span{
- transition: 0.4s;
- border-left-color:#667700;
- border-top-color:#667700;
+img.base2{
+  display:none;
 }
 
-header:hover span::first-letter{
-  color: #667700;
-  transition: 0.4s;
+header:hover span{
+ transition: 0.4s;
+ border-left-color:#526271;
+ border-top-color:#526271;
+}
+
+header:hover span:first-letter{
+  color: #526271;
+
+}
+
+header:hover img.base{
+  display:none;
+
+}
+
+header:hover img.base2{
+  display:inherit;
+  transition:0.4s;
 }
 
 header span{
