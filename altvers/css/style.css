@@ -6,15 +6,22 @@ body{
 }
 
 *{
-margin: auto;
-box-sizing:border-box;
-padding:0;
-font-family: Verdana, sans-serif;
+  margin: auto;
+  box-sizing:border-box;
+  padding:0;
+  font-family: Verdana, sans-serif;
 }
 
 h3{
+  display: inline-block;
   color:#504741;
   font-weight: bold;
+  margin-bottom: 30px;
+}
+
+div.blocco1 i{
+  color:orange;
+  font-size: 21px;
 }
 /* |regole generali */
 
@@ -28,6 +35,7 @@ img{
   width: 100%;
   height: 100%;
   border:7px solid white;
+  position: relative;
 }
 
 header span{
@@ -50,42 +58,42 @@ header span:last-child{
   transform: translate(-50%, -50%);
   font-size: 19px;
 }
+/* |sezione header */
 
+/* sezione navbar */
 div.menu{
-  background:#667667 ;
+  background:#667667;
   width: 65%;
-  height: 50px;
+  height: 40px;
 }
 
 ul.navbar{
   list-style-type: none;
   margin:0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
+  height: 80%
 }
 
 ul.navbar li{
-
-  display:block;
-  float:left;
+  margin:0;
+  display:inline-block;
   color: white;
-  font-weight: bold;
-  width: 10%;
+  font-weight:bold;
+  width: 11%;
   height: 100%;
-  font-size: 12px;
-  margin-right: 25px;
+  margin:1% 2%;
+  line-height:100%;
+  text-align:center;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
-li.layover:hover{
-  background: rgba(16, 17, 16, 0.49) ;
-  width: 10%;
-  cursor:pointer ;
+.layover:hover{
+  cursor: pointer;
+  font-size: 15px;
+  color: #526271;
+  transition: 0.2s;
 }
-
-
-
-/* |sezione header */
+/* |sezione navbar */
 
 /* parte centrale */
 div.global{
@@ -109,6 +117,10 @@ div.colonna1, div.colonna2,div.colonna3{
 ul.left{
   list-style-type: none;
   padding: 0;
+}
+
+ul.left li{
+  margin-bottom: 40px;
 }
 
 ul.left li a {
@@ -139,7 +151,7 @@ div.colonna3{
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
   background: white;
-  padding: 10%;
+  padding: 10px;
   border-radius:15px;
   border:2px solid #667667;
 }
@@ -169,10 +181,47 @@ footer span{
   top: 20%;
   left:50%;
   transform: translate(-50%, -50%);
+  font-size: 12px;
 }
 
-footer div{
-
+footer > div{
   width: 98%;
 }
+
+div.border-bottom{
+ border:1px solid lightgrey;
+ height: 50px;
+ border-top:0;
+ border-right: 0;
+ border-left: 0;
+}
+
+/* regole generali icone footer */
+footer i{
+  font-size: 25px;
+  position: absolute;
+  top:70%;
+}
+/* |regole generali icone footer */
+
+/* regole icone singole */
+i.facebook{
+  left:20%;
+  transform: translate(-50%,-50%);
+  color:#3D5A99;
+}
+
+i.instagram{
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:#F9224D;
+}
+
+i.github{
+  left:80%;
+  transform: translate(-50%,-50%)
+}
+/* |regole icone singole */
+
+
 /* |footer */
