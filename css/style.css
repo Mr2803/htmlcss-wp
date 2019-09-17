@@ -179,13 +179,21 @@ footer span{
   font-size: 12px;
 }
 
-footer div{
+footer > div{
   width: 98%;
+}
+
+div.border-bottom{
+ border:1px solid lightgrey;
+ height: 50px;
+ border-top:0;
+ border-right: 0;
+ border-left: 0;
 }
 
 /* regole generali icone footer */
 footer i{
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   top:70%;
 }
