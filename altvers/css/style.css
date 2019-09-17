@@ -1,6 +1,6 @@
 /* regole generali */
 body{
-  background-image: url(../img/bg.jpg);
+  background-image: url(../../img/bg.jpg);
   padding-top: 10px;
   background-attachment: fixed;
 }
@@ -34,27 +34,25 @@ div.menu{
   background:#667667 ;
   width: 65%;
   height: 50px;
-
 }
 
 ul.navbar{
   list-style-type: none;
   margin:0;
+  height: 100%;
 }
 
 ul.navbar li{
+
   display:block;
   float:left;
   color: white;
   font-weight: bold;
   width: 10%;
   height: 100%;
-  margin:7px;
   line-height:100%;
-  text-align:center;
+
 }
-
-
 
 li.layover:hover{
   background: rgba(16, 17, 16, 0.49) ;
