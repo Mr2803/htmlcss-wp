@@ -55,6 +55,15 @@ ul.navbar li{
 }
 
 
+
+li.layover:hover{
+  background: rgba(16, 17, 16, 0.49) ;
+  width: 20%;
+  cursor:pointer ;
+}
+
+
+
 /* |sezione header */
 
 /* parte centrale */
