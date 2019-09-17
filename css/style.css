@@ -39,16 +39,18 @@ div.menu{
 ul.navbar{
   list-style-type: none;
   margin:0 auto;
-
+  display: block;
 }
 
 ul.navbar li{
+  display: block;
   float:left;
   color: white;
-  margin:auto;
   font-weight: bold;
   margin: 1%;
 }
+
+
 
 /* |sezione header */
 
@@ -74,6 +76,11 @@ div.colonna1, div.colonna2,div.colonna3{
 ul.left{
   list-style-type: none;
   padding: 0;
+}
+
+ul.left li a {
+  text-decoration: none;
+  color:green;
 }
 /* |regole generali colonne */
 
