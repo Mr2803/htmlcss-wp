@@ -1,6 +1,6 @@
 /* regole generali */
 body{
-  background-image: url(../../img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   padding-top: 10px;
   background-attachment: fixed;
 }
