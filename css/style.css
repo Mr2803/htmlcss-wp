@@ -38,16 +38,26 @@ div.menu{
 
 ul.navbar{
   list-style-type: none;
-  margin:0 auto;
-  display: block;
+  margin:0;
+
 }
 
 ul.navbar li{
-  display: block;
+  display:block;
   float:left;
   color: white;
   font-weight: bold;
-  margin: 1%;
+  width: 10%;
+  height: 100%;
+  margin:7px;
+  line-height:100%;
+  text-align:center;
+}
+
+li.layover:hover{
+  background: black;
+  width: 10%;
+  cursor:pointer ;
 }
 
 
