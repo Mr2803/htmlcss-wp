@@ -57,7 +57,7 @@ header span:last-child{
 div.menu{
   background:#667667;
   width: 65%;
-  height: 50px;
+  height: 40px;
 }
 
 ul.navbar{
@@ -67,25 +67,24 @@ ul.navbar{
 }
 
 ul.navbar li{
-  background: pink;
   margin:0;
   display:inline-block;
-  float:left;
   color: white;
   font-weight:bold;
-  width: 12%;
-  height: 100%;
-  margin:1% 1% 2% 1%;
-  line-height:200%;
+  width: 11%;
+  height: 150%;
+  margin:1% 2%;
+  line-height:100%;
   text-align:center;
-  font-size: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
 .layover:hover{
   cursor: pointer;
   font-size: 15px;
   color: #526271;
-  transition: 0.2s
+  transition: 0.2s;
 }
 /* |sezione navbar */
 
@@ -171,12 +170,39 @@ footer span{
   top: 20%;
   left:50%;
   transform: translate(-50%, -50%);
-  font-size: 15px;
+  font-size: 12px;
 }
 
 footer div{
   width: 98%;
 }
+
+/* regole generali icone */
+i{
+  font-size: 30px;
+  position: absolute;
+  top:70%;
+}
+/* |regole generali icone */
+
+/* regole icone singole */
+i.facebook{
+  left:20%;
+  transform: translate(-50%,-50%);
+  color:#3D5A99;
+}
+
+i.instagram{
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:#F9224D;
+}
+
+i.github{
+  left:80%;
+  transform: translate(-50%,-50%)
+}
+/* |regole icone singole */
 
 
 /* |footer */
