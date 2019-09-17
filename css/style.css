@@ -54,8 +54,6 @@ header span:last-child{
 /* |sezione header */
 
 /* sezione navbar */
-
-
 div.menu{
   background:#667667;
   width: 65%;
@@ -69,8 +67,9 @@ ul.navbar{
 }
 
 ul.navbar li{
+  background: pink;
   margin:0;
-  display:block;
+  display:inline-block;
   float:left;
   color: white;
   font-weight:bold;
