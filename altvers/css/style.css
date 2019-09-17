@@ -19,10 +19,7 @@ h3{
   margin-bottom: 30px;
 }
 
-div.blocco1 i{
-  color:orange;
-  font-size: 21px;
-}
+
 /* |regole generali */
 
 /* sezione header */
@@ -36,6 +33,17 @@ img{
   height: 100%;
   border:7px solid white;
   position: relative;
+}
+
+header:hover span{
+ transition: 0.4s;
+ border-left-color:#667700;
+ border-top-color:#667700;
+}
+
+header:hover span::first-letter{
+  color: #667700;
+  transition: 0.4s;
 }
 
 header span{
@@ -133,6 +141,11 @@ ul.left li a {
 div.colonna1{
   width: 20%;
   background:white;
+}
+
+div.blocco1 i{
+  color:orange;
+  font-size: 21px;
 }
 
 div.colonna2{
