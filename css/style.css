@@ -16,6 +16,7 @@ h3{
   display: inline-block;
   color:#504741;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
 div.blocco1 i{
@@ -73,12 +74,13 @@ ul.navbar{
 }
 
 ul.navbar li{
+  background: pink;
   margin:0;
   display:inline-block;
   color: white;
   font-weight:bold;
   width: 11%;
-  height: 150%;
+  height: 100%;
   margin:1% 2%;
   line-height:100%;
   text-align:center;
@@ -116,6 +118,10 @@ div.colonna1, div.colonna2,div.colonna3{
 ul.left{
   list-style-type: none;
   padding: 0;
+}
+
+ul.left li{
+  margin-bottom: 40px;
 }
 
 ul.left li a {
