@@ -1,0 +1,138 @@
+/* regole generali */
+body{
+  background-image: url(../../img/bg.jpg);
+  padding-top: 10px;
+  background-attachment: fixed;
+}
+
+*{
+margin: auto;
+box-sizing:border-box;
+padding:0;
+}
+
+h3{
+  color:#504741;
+  font-weight: bold;
+}
+/* |regole generali */
+
+/* sezione header */
+header{
+  width: 65%;
+  height: 250px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  border:7px solid white;
+}
+
+div.menu{
+  background:#667667 ;
+  width: 65%;
+  height: 50px;
+
+}
+
+ul.navbar{
+  list-style-type: none;
+  margin:0 auto;
+
+}
+
+ul.navbar li{
+  float:left;
+  color: white;
+  margin:auto;
+  font-weight: bold;
+  margin: 1%;
+}
+
+/* |sezione header */
+
+/* parte centrale */
+div.global{
+  width: 65%;
+  margin-top:20px;
+  margin-bottom: 50px;
+}
+
+div.global:after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+/* regole generali colonne */
+div.colonna1, div.colonna2,div.colonna3{
+  float: left;
+  border-radius: 10%;
+}
+
+ul.left{
+  list-style-type: none;
+  padding: 0;
+}
+/* |regole generali colonne */
+
+/* regole colonne singole */
+div.colonna1{
+  width: 20%;
+  background:white;
+}
+
+div.colonna2{
+  width: 54%;
+  background:green;
+  margin-left: 3%;
+  margin-right:3%;
+}
+
+div.colonna3{
+  width: 20%;
+}
+/* |regole colonne singole */
+
+/* regole generali blocchi */
+div.blocco1,div.blocco2,div.blocco3{
+  width:100%;
+  background: white;
+  padding: 10%;
+  border-radius:15px;
+  border:2px solid #667667;
+}
+/* |regole generali blocchi in colonna3 */
+
+/* regole blocchi singoli */
+div.blocco2{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/* |regole blocchi singoli */
+
+/* footer */
+footer{
+    background:white;
+    width: 65%;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid #667667;
+    position:relative;
+}
+
+footer span{
+  color: lightgrey;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+footer div{
+
+  width: 98%;
+}
+/* |footer */
