@@ -31,26 +31,25 @@ img{
   position: relative;
 }
 
-
 header span{
   color: white;
   display: inline-block;
   position: absolute;
-  top: 10%;
+  top: 12%;
   left:50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
   border: 7px solid white;
-  padding: 1% 4%;
+  padding: 1% 3%;
 }
 
 header span:last-child{
   border:0;
   position: absolute;
-  top: 20%;
+  top: 23%;
   left:50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 19px;
 
 
 }
