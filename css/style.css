@@ -54,9 +54,7 @@ header span:last-child{
 /* |sezione header */
 
 /* sezione navbar */
-.layover:hover{
-  cursor: pointer;
-}
+
 
 div.menu{
   background:#667667;
@@ -67,18 +65,28 @@ div.menu{
 ul.navbar{
   list-style-type: none;
   margin:0;
+  height: 80%
 }
 
 ul.navbar li{
+  margin:0;
   display:block;
   float:left;
   color: white;
-  font-weight: bold;
-  width: 10%;
+  font-weight:bold;
+  width: 12%;
   height: 100%;
-  margin:1% 3% 2% 1%;
-  line-height:100%;
+  margin:1% 1% 2% 1%;
+  line-height:200%;
   text-align:center;
+  font-size: 12px;
+}
+
+.layover:hover{
+  cursor: pointer;
+  font-size: 15px;
+  color: #526271;
+  transition: 0.2s
 }
 /* |sezione navbar */
 
@@ -164,15 +172,12 @@ footer span{
   top: 20%;
   left:50%;
   transform: translate(-50%, -50%);
+  font-size: 15px;
 }
 
 footer div{
-
   width: 98%;
 }
 
-i{
-  width: 10px;
-  height: 10px;
-}
+
 /* |footer */
