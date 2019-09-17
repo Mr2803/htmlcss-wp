@@ -22,8 +22,6 @@ div.blocco1 i{
   color:orange;
   font-size: 21px;
 }
-
-
 /* |regole generali */
 
 /* sezione header */
@@ -148,7 +146,7 @@ div.colonna3{
 div.blocco1,div.blocco2,div.blocco3{
   width:100%;
   background: white;
-  padding: 10%;
+  padding: 10px;
   border-radius:15px;
   border:2px solid #667667;
 }
