@@ -93,18 +93,18 @@ div.menu{
 ul.navbar{
   list-style-type: none;
   margin:0;
-  height: 80%
+  height: 100%;
 }
 
 ul.navbar li{
-  margin:0;
-  display:inline-block;
+  
+  float:left;
   color: white;
   font-weight:bold;
   width: 11%;
   height: 100%;
-  margin:1% 2%;
-  line-height:100%;
+  margin:0 2%;
+  line-height: 30px;
   text-align:center;
   font-size: 10px;
   text-transform: uppercase;
